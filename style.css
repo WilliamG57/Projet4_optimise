@@ -329,7 +329,12 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+ul li:hover {
+    border-bottom: 1.5px solid black;
+    scale: 1.2;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -364,6 +369,20 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.commentaire {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detail-commentaire {
+    padding-left: 0;
+    border-left: 2px solid gray;
+}
+
+.signature_commentaire {
+    font-size: 10px;
 }
 
 @media (min-width: 768px) {
@@ -678,10 +697,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
