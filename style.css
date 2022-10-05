@@ -332,9 +332,11 @@ a:hover {
     font-size: 18px;
 }
 
-ul li:hover {
+ul li a:hover {
     border-bottom: 1.5px solid black;
-    scale: 1.2;
+    scale: 1.1;
+    color: #c27956;
+    border-color: #c27956;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -678,7 +680,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -758,6 +760,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: black;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -772,7 +778,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: beige;
     padding: 40px 40px 40px 40px;
 }
 
@@ -793,12 +799,12 @@ h4 {
     background-color: gray;
 }
 
-.tc-white {
+/* .tc-white {
     color: white!important;
-}
+} */
 
 .btn-atomic-tangerine {
-    background: gray;
+    background: brown;
     color: #FFFFFF!important;
 }
 
@@ -807,8 +813,16 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white {
+/* .ltc-white {
     color: #FFFFFF!important;
+} */
+
+.color_title {
+    color: black;
+}
+
+.background_beige {
+    background-color: gray;
 }
 
 .ltc-white:hover {
