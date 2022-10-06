@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
     
@@ -18,7 +18,7 @@
 	<script src="./js/blocs.js" defer></script>
 	<script src="./js/jqBootstrapValidation.js" defer></script>
 	<script src="./js/formHandler.js" defer></script>
-    <title>Nous contactez</title>
+    <title>Contact</title>
 
     
 <!-- Analytics -->
@@ -43,9 +43,6 @@
 						<li>
 							<a href="index.html">Accueil</a>
 						</li>
-						<li>
-							<a href="contact.html">Nous Contactez</a>
-						</li>
 					</ul>
 				</div>
 			</nav>
@@ -59,10 +56,10 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text tc-white black">
 					Parlons web design !
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
+				<p class="text-center mg-lg tc-white tight-width-whitespace black">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
@@ -76,25 +73,35 @@
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+			<div>
+				<form class="text-center" id="form_1" novalidate success-msg="Your message has been sent.">
 					<div class="form-group">
-						<label>
+						<label for="nom">
 							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						</label><br/>
+						<input type="text" id="nom" class="form-control" required placeholder="Ex : Doe" />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+						<label for="prénom">
+							Prénom
+						</label><br/>
+						<input type="text" id="prenom" class="form-control" required placeholder="Ex : John" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="mail">
+							Adresse mail
+						</label><br/>
+						<input id="email" class="form-control" type="email" required placeholder="John.Doe@gmail.com"/>
+					</div>
+					<div class="form-group">
+						<label for="information">
 							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						</label><br/>
+						<select name="choix" id="information">
+							<option value="Internet">Internet</option>
+							<option value="Connaissance">Connaissance</option>
+							<option value="Réseaux sociaux">Réseaux sociaux</option>
+						</select>
 					</div>
 					<div class="form-group">
 						<label>
@@ -106,19 +113,14 @@
 					</button>
 				</form>
 			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-7 END -->
 
-<!-- ScrollToTop Button -->
+<!-- ScrollToTop Button
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
+ScrollToTop Button END -->
 
 
 <!-- Footer - bloc-8 -->
@@ -135,20 +137,28 @@
 							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
+
 					<div class="col-sm-3">
 						<div class="text-center">
 							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
+
 					<div class="col-sm-3">
 						<div class="text-center">
 							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
+
 					<div class="col-sm-3">
 						<div class="text-center">
 							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
+					</div>
+					<div class="text-center">
+						<p>
+							contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+						</p>
 					</div>
 				</div>
 			</div>
