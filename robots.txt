@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap:https://williamg57.github.io/Projet4_base/sitemap.xml

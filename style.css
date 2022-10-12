@@ -196,7 +196,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 } */
 
-.d-bloc .panel,
+/* .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
 }
@@ -204,7 +204,7 @@ a:hover {
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
-}
+} */
 
 /* .l-bloc .icon-round,
 .l-bloc .icon-square,
@@ -214,10 +214,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .7);
 } */
 
-.d-bloc .panel .divider-h span,
+/* .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
-}
+} */
 
 /* .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
@@ -255,9 +255,9 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 } */
 
-.l-bloc .navbar-toggle .icon-bar {
+/* .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
-}
+} */
 
 /* .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
